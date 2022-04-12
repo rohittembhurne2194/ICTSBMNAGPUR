@@ -435,11 +435,13 @@ namespace SwachhBharatAbhiyan.CMS.Controllers
                     //gridRepository = new InfotainmentGridRepository(0, searchString, appId);
                     gridRepository = new InfotainmentGridRepository(0, searchString, 0);
                     return gridRepository;
+
                     break;
 
                 case "HSAttendance":
                     gridRepository = new HSAttendanceGridRepository(0, searchString, fdate, tdate, userId, appId);
                     return gridRepository;
+
                     break;
 
                 case "HSHouseDetails":

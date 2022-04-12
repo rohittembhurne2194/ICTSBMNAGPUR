@@ -1844,6 +1844,7 @@
     <Content Include="Content\images\logo.png" />
     <Content Include="Content\images\logos.png" />
     <Content Include="Content\images\New_Img\login_page_design.png" />
+    <Content Include="Content\images\New_Img\NMCL.png" />
     <Content Include="Content\images\New_Img\WCMT-Logo.png" />
     <Content Include="Content\images\progressbar.gif" />
     <Content Include="Content\images\rodr.PNG" />

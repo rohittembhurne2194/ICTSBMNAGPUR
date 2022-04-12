@@ -143,7 +143,7 @@ namespace SwachhBharatAbhiyan.CMS.Areas.Liquid.Controllers
             try
             {
                 int AppId = mainrepository.GetUserAppId(UserId);
-                if (AppId != 0)
+                if (AppId == 3068)
                 {
                     AppDetailsVM ApplicationDetails = mainrepository.GetApplicationDetails(AppId);
                     string DB_Connect = mainrepository.GetDatabaseFromAppID(AppId);

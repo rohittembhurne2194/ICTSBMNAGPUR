@@ -295,7 +295,7 @@ namespace SwachBharat.CMS.Bll.Services
         {
             int AppId = 0;
             AppId = dbMain.UserInApps.Where(x => x.UserId == UserId).Select(x => x.AppId).FirstOrDefault();
-
+            
             return AppId;
         }
 
@@ -322,7 +322,7 @@ namespace SwachBharat.CMS.Bll.Services
         public List<AppDetail> GetAppName()
         {
             List<AppDetail> appNames = new List<AppDetail>();
-            appNames = dbMain.AppDetails.Where(x => x.IsActive == true && x.AppName != "Thane Mahanagar Palika").OrderBy(x => x.AppName).ToList();
+            appNames = dbMain.AppDetails.Where(x => x.IsActive == true && x.AppName == "Nagpur Mahanagar Palika").OrderBy(x => x.AppName).ToList();
             //appNames = dbMain.AppDetails.ToList();
               //var appNames= dbMain.AppDetails.Where(row => row.)
             return appNames.OrderBy(x =>x.AppName).ToList();

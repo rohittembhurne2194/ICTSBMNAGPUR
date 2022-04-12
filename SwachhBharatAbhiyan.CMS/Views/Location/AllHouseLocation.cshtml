@@ -184,7 +184,7 @@
 
         </div><br />
         <div class="row" style="display:flex">
-            <div class="col" style="width:20%;padding-right: 5px;">
+            @*<div class="col" style="width:20%;padding-right: 5px;">
 
                 <div class="media" style="border: 1px solid #4f0e54; padding: 5px;">
                     <div class="media-left media-middle" style="padding: 0px 10px;">
@@ -207,7 +207,7 @@
                         <p style="font-size:14px;margin:0px"><b>Total :</b> @Model.StreetCollection</p>
                     </div>
                 </div>
-            </div>
+            </div>*@
 
             <div class="col" style="width:20%;padding-right: 5px;">
 
@@ -501,9 +501,9 @@
                         if (data[i].lwid != 0) {
                             var mUrl = "../../Areas/Liquid/Content/images/img/segregationImg/Liquidwaste_Marker.png";
                         }
-                        if (data[i].ssid != 0) {
-                            var mUrl = "../../Areas/Street/Content/images/img/segregationImg/Street_Sweep.png";
-                        }
+                        //if (data[i].ssid != 0) {
+                        //    var mUrl = "../../Areas/Street/Content/images/img/segregationImg/Street_Sweep.png";
+                        //}
                         if (data[i].dyid != 0) {
                             var mUrl = "../Content/images/img/segregationImg/Dumpyard_marker.png";
 

@@ -790,11 +790,12 @@ $(document).ready(function () {
            //    text: "Grouped Stacked Chart"
            //},
            theme: "theme3",
-           // interval :1,
+            //interval :50,
            axisY: {
                labelFontSize: 10,
                labelFontColor: "dimGrey",
-               interval: 1
+               interval: 1,
+             
            },
            axisX: {
                labelAngle: -10,
@@ -803,6 +804,8 @@ $(document).ready(function () {
            },
            axisY: {
                title: "House Collection",
+               minimum: 0,
+               interval: 100
            },
 
            data: [

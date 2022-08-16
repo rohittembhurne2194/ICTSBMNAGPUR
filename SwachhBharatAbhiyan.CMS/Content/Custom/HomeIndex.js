@@ -794,7 +794,8 @@ $(document).ready(function () {
            axisY: {
                labelFontSize: 10,
                labelFontColor: "dimGrey",
-               interval: 1
+              
+             
            },
            axisX: {
                labelAngle: -10,
@@ -803,6 +804,8 @@ $(document).ready(function () {
            },
            axisY: {
                title: "House Collection",
+               interval: 50,
+               minimum:0
            },
 
            data: [

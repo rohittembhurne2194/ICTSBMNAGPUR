@@ -790,7 +790,7 @@ $(document).ready(function () {
            //    text: "Grouped Stacked Chart"
            //},
            theme: "theme3",
-           // interval :1,
+            //interval :50,
            axisY: {
                labelFontSize: 10,
                labelFontColor: "dimGrey",
